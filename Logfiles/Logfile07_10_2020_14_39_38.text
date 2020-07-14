@@ -1,0 +1,98 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "doggie",
+    "id": "0",
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Fri, 10 Jul 2020 09:09:44 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 7181653650137416,
+    "name": "doggie",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/7181653650137416
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petid=7181653650137416
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Fri, 10 Jul 2020 09:09:46 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 7181653650137416,
+    "name": "doggie",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/7181653650137416
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petid=7181653650137416
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Fri, 10 Jul 2020 09:09:47 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7181653650137416"
+}
