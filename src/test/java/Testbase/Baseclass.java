@@ -21,13 +21,18 @@ public class Baseclass {
 
 	public static ExtentReports report;
 	public static ExtentTest logger;
+	//public static ExtentHtmlReporter extent;
 	public static ExtentHtmlReporter extent;
 	
 	@BeforeSuite
 	public void setupSuite()
 	{
-	    extent = new ExtentHtmlReporter(new File("D:\\PetStoreAPIFramework\\Report\\"
-	    		+ "petstore"+Utils.getCurrentDateTime()+".html"));
+		
+		
+		 // extent = new ExtentHtmlReporter(new File("D:\\PetStoreAPIFramework\\Report\\" + "petstore"+Utils.getCurrentDateTime()+".html"));
+		 
+		 
+		extent = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Report\\" + "petstore" + Utils.getCurrentDateTime() + ".html");
 	    
 	    
 		report = new ExtentReports();

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="4" total="13" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12409" started-at="2020-07-14T19:19:42 IST" finished-at="2020-07-14T19:19:54 IST">
+  <suite name="Suite" duration-ms="12622" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:13:07 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12409" started-at="2020-07-14T19:19:42 IST" finished-at="2020-07-14T19:19:54 IST">
+    <test name="Test" duration-ms="12622" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:13:07 IST">
       <class name="TestCase.AddPetTest">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="setupSuite" is-config="true" duration-ms="72" started-at="2020-07-14T19:19:42 IST" finished-at="2020-07-14T19:19:42 IST">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="setupSuite" is-config="true" duration-ms="77" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:12:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="2640" started-at="2020-07-14T19:19:42 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:45 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="2741" started-at="2020-07-14T21:12:55 IST" data-provider="insertdata" finished-at="2020-07-14T21:12:58 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="2" started-at="2020-07-14T19:19:45 IST" finished-at="2020-07-14T19:19:45 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="2" started-at="2020-07-14T21:12:58 IST" finished-at="2020-07-14T21:12:58 IST">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1171" started-at="2020-07-14T19:19:45 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:46 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1244" started-at="2020-07-14T21:12:58 IST" data-provider="insertdata" finished-at="2020-07-14T21:12:59 IST">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1170" started-at="2020-07-14T19:19:46 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:47 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1210" started-at="2020-07-14T21:12:59 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:00 IST">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T19:19:46 IST" finished-at="2020-07-14T19:19:46 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:12:59 IST" finished-at="2020-07-14T21:12:59 IST">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T19:19:47 IST" finished-at="2020-07-14T19:19:47 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:00 IST" finished-at="2020-07-14T21:13:00 IST">
           <params>
             <param index="0">
               <value>
@@ -107,13 +107,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="teardown" is-config="true" duration-ms="167" started-at="2020-07-14T19:19:54 IST" finished-at="2020-07-14T19:19:55 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="teardown" is-config="true" duration-ms="168" started-at="2020-07-14T21:13:07 IST" finished-at="2020-07-14T21:13:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCase.AddPetTest -->
       <class name="TestCase.DeletePetTest">
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1174" started-at="2020-07-14T19:19:51 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:52 IST">
+        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1185" started-at="2020-07-14T21:13:04 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:05 IST">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T19:19:52 IST" finished-at="2020-07-14T19:19:52 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:05 IST" finished-at="2020-07-14T21:13:05 IST">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1182" started-at="2020-07-14T19:19:52 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:53 IST">
+        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1166" started-at="2020-07-14T21:13:05 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:06 IST">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T19:19:53 IST" finished-at="2020-07-14T19:19:53 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:06 IST" finished-at="2020-07-14T21:13:06 IST">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1137" started-at="2020-07-14T19:19:53 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:54 IST">
+        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1177" started-at="2020-07-14T21:13:06 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:07 IST">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T19:19:54 IST" finished-at="2020-07-14T19:19:54 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:07 IST" finished-at="2020-07-14T21:13:07 IST">
           <params>
             <param index="0">
               <value>
@@ -211,7 +211,7 @@
         </test-method> <!-- getResult -->
       </class> <!-- TestCase.DeletePetTest -->
       <class name="TestCase.GetPetTest">
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1209" started-at="2020-07-14T19:19:47 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:49 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1155" started-at="2020-07-14T21:13:00 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:02 IST">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T19:19:49 IST" finished-at="2020-07-14T19:19:49 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:02 IST" finished-at="2020-07-14T21:13:02 IST">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1197" started-at="2020-07-14T19:19:49 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:50 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1172" started-at="2020-07-14T21:13:02 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:03 IST">
           <params>
             <param index="0">
               <value>
@@ -264,7 +264,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T19:19:50 IST" finished-at="2020-07-14T19:19:50 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:03 IST" finished-at="2020-07-14T21:13:03 IST">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1177" started-at="2020-07-14T19:19:50 IST" data-provider="insertdata" finished-at="2020-07-14T19:19:51 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1216" started-at="2020-07-14T21:13:03 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:04 IST">
           <params>
             <param index="0">
               <value>
@@ -296,7 +296,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T19:19:51 IST" finished-at="2020-07-14T19:19:51 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:04 IST" finished-at="2020-07-14T21:13:04 IST">
           <params>
             <param index="0">
               <value>

@@ -33,7 +33,7 @@ public class Utils {
 		
 		if(req==null)
 		{
-		PrintStream log =new PrintStream(new FileOutputStream("D:\\PetStoreAPIFramework\\Logfiles\\Logfile"+Utils.getCurrentDateTime()+".text"));
+		PrintStream log =new PrintStream(new FileOutputStream(System.getProperty("user.dir") + "\\Logfiles\\Logfile"+Utils.getCurrentDateTime()+".txt"));
 		 req=new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
 				 .addFilter(RequestLoggingFilter.logRequestTo(log))
 				 .addFilter(ResponseLoggingFilter.logResponseTo(log))
@@ -61,7 +61,7 @@ public class Utils {
 	public static String getGlobalValue(String key) throws IOException
 	{
 		Properties prop =new Properties();
-		FileInputStream fis =new FileInputStream("D:\\PetStoreAPIFramework\\src\\main\\java\\resources\\global.properties");
+		FileInputStream fis =new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
 	

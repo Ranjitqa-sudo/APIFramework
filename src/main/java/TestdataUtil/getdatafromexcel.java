@@ -13,7 +13,7 @@ public class getdatafromexcel {
 	public Object[][] getdatafromexcel(String sheetname) throws IOException
 	{
 		
-		FileInputStream fis=new FileInputStream("D:\\PetStoreAPIFramework\\src\\main\\java\\TestdataUtil\\Testdata.xlsx");
+		FileInputStream fis=new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\TestdataUtil\\Testdata.xlsx");
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		
 		

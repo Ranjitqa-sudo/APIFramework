@@ -20,7 +20,7 @@ public class GetTestData {
 		
 				ArrayList<String> a=new ArrayList<String>();
 				
-				FileInputStream fis=new FileInputStream("D:\\PetStoreAPIFramework\\src\\main\\java\\TestdataUtil\\Testdata.xlsx");
+				FileInputStream fis=new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\TestdataUtil\\Testdata.xlsx");
 				XSSFWorkbook workbook=new XSSFWorkbook(fis);
 				
 				int sheets=workbook.getNumberOfSheets();
