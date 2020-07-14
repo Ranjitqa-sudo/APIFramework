@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCase.AddPetTest"/>
       <class name="TestCase.GetPetTest"/>
-      <class name="TestCase.DeletePetTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
