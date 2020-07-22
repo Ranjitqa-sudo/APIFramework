@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="13" passed="9">
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12622" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:13:07 IST">
+  <suite name="Suite" duration-ms="6312" started-at="2020-07-21T21:18:19 IST" finished-at="2020-07-21T21:18:25 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12622" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:13:07 IST">
+    <test name="Test" duration-ms="6312" started-at="2020-07-21T21:18:19 IST" finished-at="2020-07-21T21:18:25 IST">
       <class name="TestCase.AddPetTest">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="setupSuite" is-config="true" duration-ms="77" started-at="2020-07-14T21:12:55 IST" finished-at="2020-07-14T21:12:55 IST">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="setupSuite" is-config="true" duration-ms="77" started-at="2020-07-21T21:18:19 IST" finished-at="2020-07-21T21:18:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="2741" started-at="2020-07-14T21:12:55 IST" data-provider="insertdata" finished-at="2020-07-14T21:12:58 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="addpettest" duration-ms="1484" started-at="2020-07-21T21:18:20 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2.0]]>
+                <![CDATA[34.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[doggie]]>
+                <![CDATA[parrot]]>
               </value>
             </param>
             <param index="2">
@@ -32,27 +32,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="2" started-at="2020-07-14T21:12:58 IST" finished-at="2020-07-14T21:12:58 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="getResult" is-config="true" duration-ms="3" started-at="2020-07-21T21:18:22 IST" finished-at="2020-07-21T21:18:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542] output={null}]]]>
+                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1244" started-at="2020-07-14T21:12:58 IST" data-provider="insertdata" finished-at="2020-07-14T21:12:59 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="addpettest" duration-ms="1180" started-at="2020-07-21T21:18:22 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4.0]]>
+                <![CDATA[45.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[lion]]>
+                <![CDATA[jackel]]>
               </value>
             </param>
             <param index="2">
@@ -64,16 +64,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="addpettest" duration-ms="1210" started-at="2020-07-14T21:12:59 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:00 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-21T21:18:23 IST" finished-at="2020-07-21T21:18:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6.0]]>
+                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="addpettest" duration-ms="1202" started-at="2020-07-21T21:18:23 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[tiger]]>
+                <![CDATA[bear]]>
               </value>
             </param>
             <param index="2">
@@ -85,142 +96,65 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addpettest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:12:59 IST" finished-at="2020-07-14T21:12:59 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-21T21:18:24 IST" finished-at="2020-07-21T21:18:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542] output={null}]]]>
+                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:00 IST" finished-at="2020-07-14T21:13:00 IST">
+        <test-method status="PASS" signature="addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="addpettest" duration-ms="1208" started-at="2020-07-21T21:18:24 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:25 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@5a1c0542] output={null}]]]>
+                <![CDATA[42.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peacock]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addpettest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-21T21:18:25 IST" finished-at="2020-07-21T21:18:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addpettest status=SUCCESS method=AddPetTest.addpettest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.AddPetTest@1f7030a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCase.AddPetTest@5a1c0542]" name="teardown" is-config="true" duration-ms="168" started-at="2020-07-14T21:13:07 IST" finished-at="2020-07-14T21:13:08 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCase.AddPetTest@1f7030a6]" name="teardown" is-config="true" duration-ms="169" started-at="2020-07-21T21:18:25 IST" finished-at="2020-07-21T21:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestCase.AddPetTest -->
-      <class name="TestCase.DeletePetTest">
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1185" started-at="2020-07-14T21:13:04 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[doggie]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:05 IST" finished-at="2020-07-14T21:13:05 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deletePetTest status=SUCCESS method=DeletePetTest.deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1166" started-at="2020-07-14T21:13:05 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lion]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:06 IST" finished-at="2020-07-14T21:13:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deletePetTest status=SUCCESS method=DeletePetTest.deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="deletePetTest" duration-ms="1177" started-at="2020-07-14T21:13:06 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tiger]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletePetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.DeletePetTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:07 IST" finished-at="2020-07-14T21:13:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=deletePetTest status=SUCCESS method=DeletePetTest.deletePetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.DeletePetTest@394e1a0f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- TestCase.DeletePetTest -->
       <class name="TestCase.GetPetTest">
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1155" started-at="2020-07-14T21:13:00 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:02 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getPetTest" duration-ms="2403" started-at="2020-07-21T21:18:19 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2.0]]>
+                <![CDATA[8.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[doggie]]>
+                <![CDATA[parrot]]>
               </value>
             </param>
             <param index="2">
@@ -232,27 +166,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:02 IST" finished-at="2020-07-14T21:13:02 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-21T21:18:22 IST" finished-at="2020-07-21T21:18:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598] output={null}]]]>
+                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1172" started-at="2020-07-14T21:13:02 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:03 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getPetTest" duration-ms="1109" started-at="2020-07-21T21:18:22 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:23 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4.0]]>
+                <![CDATA[9.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[lion]]>
+                <![CDATA[jackel]]>
               </value>
             </param>
             <param index="2">
@@ -264,43 +198,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="1" started-at="2020-07-14T21:13:03 IST" finished-at="2020-07-14T21:13:03 IST">
+        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getPetTest" duration-ms="1210" started-at="2020-07-21T21:18:23 IST" data-provider="insertdata" finished-at="2020-07-21T21:18:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598] output={null}]]]>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peacock]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-21T21:18:23 IST" finished-at="2020-07-21T21:18:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getPetTest" duration-ms="1216" started-at="2020-07-14T21:13:03 IST" data-provider="insertdata" finished-at="2020-07-14T21:13:04 IST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-21T21:18:24 IST" finished-at="2020-07-21T21:18:24 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tiger]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPetTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCase.GetPetTest@396f6598]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-14T21:13:04 IST" finished-at="2020-07-14T21:13:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@396f6598] output={null}]]]>
+                <![CDATA[[TestResult name=getPetTest status=SUCCESS method=GetPetTest.getPetTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCase.GetPetTest@5a1c0542] output={null}]]]>
               </value>
             </param>
           </params>

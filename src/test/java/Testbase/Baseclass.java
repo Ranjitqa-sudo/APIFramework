@@ -33,9 +33,12 @@ public class Baseclass {
 		 
 		 
 		extent = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\Report\\" + "petstore" + Utils.getCurrentDateTime() + ".html");
+		
+		
 	    
 	    
 		report = new ExtentReports();
+		
 		report.attachReporter(extent);
 	}
 	

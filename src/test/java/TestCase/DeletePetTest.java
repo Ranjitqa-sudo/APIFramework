@@ -27,6 +27,9 @@ public class DeletePetTest extends Baseclass {
 		logger = report.createTest("deletepettest");
 		
 		int pet_id = Utils.ConverttoInt(petid);
+		
+	//	req = pet.addPathparamaspetid(pet_id);
+		
 		  
 		req = pet.addPathparamaspetid(pet_id); 
 		pet.deleteHttpRequest(req,"deletepetresource"); 
@@ -46,7 +49,7 @@ public class DeletePetTest extends Baseclass {
 		
 		  getdatafromexcel util = new getdatafromexcel();
 		  
-		  Object[][] data = util.getdatafromexcel("testdata");
+		  Object[][] data = util.getdatafromexcel("deletepet");
 		  
 		  return data;
 		 

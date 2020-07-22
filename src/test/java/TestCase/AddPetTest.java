@@ -48,7 +48,7 @@ public class AddPetTest extends Baseclass{
 		
 		  getdatafromexcel util = new getdatafromexcel();
 		  
-		  Object[][] data = util.getdatafromexcel("testdata");
+		  Object[][] data = util.getdatafromexcel("addpettest");
 		  
 		  return data;
 		 

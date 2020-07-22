@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCase.GetPetTest">
+      <class name="TestCase.AddPetTest">
         <methods>
           <include name="setupSuite"/>
-          <include name="getPetTest" invocation-numbers="0 1 2"/>
+          <include name="addpettest"/>
+          <include name="getResult"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- TestCase.GetPetTest -->
+      </class> <!-- TestCase.AddPetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

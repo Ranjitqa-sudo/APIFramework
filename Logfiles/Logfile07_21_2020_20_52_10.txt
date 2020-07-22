@@ -1,0 +1,570 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "doggie",
+    "id": 2,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:12 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 2,
+    "name": "doggie",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "lion",
+    "id": 4,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:14 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 4,
+    "name": "lion",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "tiger",
+    "id": 6,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:15 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 6,
+    "name": "tiger",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "monkey",
+    "id": 7,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:16 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 7,
+    "name": "monkey",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "parrot",
+    "id": 8,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:17 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 8,
+    "name": "parrot",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "jackel",
+    "id": 9,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:19 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 9,
+    "name": "jackel",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "bear",
+    "id": 10,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:20 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 10,
+    "name": "bear",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "peacock",
+    "id": 11,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:21 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 11,
+    "name": "peacock",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "mouse",
+    "id": 12,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:22 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 12,
+    "name": "mouse",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "cat",
+    "id": 13,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:23 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 13,
+    "name": "cat",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "rat",
+    "id": 14,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:25 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 14,
+    "name": "rat",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "hen",
+    "id": 15,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:26 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 15,
+    "name": "hen",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "goat",
+    "id": 16,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:27 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 16,
+    "name": "goat",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "dinosour",
+    "id": 17,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:28 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 17,
+    "name": "dinosour",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "zebra",
+    "id": 18,
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 21 Jul 2020 15:22:30 GMT
+Server: Jetty(9.2.9.v20150224)
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "id": 18,
+    "name": "zebra",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
